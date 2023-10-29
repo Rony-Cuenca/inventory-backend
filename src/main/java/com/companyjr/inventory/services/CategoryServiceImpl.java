@@ -17,6 +17,7 @@ import com.companyjr.inventory.response.CategoryResponseRest;
 @Service
 public class CategoryServiceImpl implements ICategoryService{
 	
+	//INJECCION DE DEPENDENCIA
 	@Autowired
 	private ICategoryDao categoryDao;
 
